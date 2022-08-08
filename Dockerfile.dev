@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/vscode/devcontainers/python:0-3.9
+FROM --platform=linux/arm/v7 mcr.microsoft.com/vscode/devcontainers/python:0-3.9
 
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
